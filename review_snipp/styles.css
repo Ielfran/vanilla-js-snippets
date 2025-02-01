@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* Variables */
+:root {
+  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-white: #fff;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+}
+
+/* Global Styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-secondary);
+  background-color: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Reviews Section */
+.container {
+  width: 80vw;
+  max-width: var(--fixed-width);
+}
+
+.review {
+  background-color: var(--clr-white);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.img-container {
+  width: 150px;
+}
+
+#person-img {
+  border-radius: 50%;
+}
+
+/* Buttons */
+.prev-btn,
+.next-btn,
+.random-btn {
+  cursor:pointer;
+}
+

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Spiderman",
+        "job": "brawler",
+        "img": "image1.jpg",
+        "text": "Spiderman Spiderman, tumne liya mera dil ka chyan"
+    },
+    {
+        "id": 2,
+        "name": "silversurfer",
+        "job": "killer",
+        "img": "image2.jpg",
+        "text":"I serve Galactus" 
+    },
+    {
+        "id": 3,
+        "name": "superman",
+        "job": "Intern",
+        "img": "image3.jpg",
+        "text": "I am middle eastern superman"
+    },
+    {
+        "id": 4,
+        "name": "wolverine",
+        "job": "The Boss",
+        "img": "image4.jpg",
+        "text": "I am Hairy and angry"
+    }
+]
+
